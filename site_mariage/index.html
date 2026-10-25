@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Berthy &amp; Benjamin - Mariage</title>
+<meta name="description" content="Berthy &amp; Benjamin vous invitent à célébrer leur mariage : Samedi 19 décembre 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<audio id="bgm" loop src="assets/audio/musique.mp3"></audio><div id="gate"><div><p class="gq">Ce que Dieu a uni, personne ne peut le séparer.</p><h1>Berthy <i>&amp;</i> Benjamin</h1><p>Samedi 19 décembre 2026</p><button class="btn solid" id="enter">Entrer</button><button class="skip" id="skip">Entrer sans musique</button></div></div><button id="mute" aria-label="Musique" hidden>♪</button>
+<header class="nav" id="nav">
+  <a class="mono" href="#hero" aria-label="Accueil">B &amp; B</a>
+  <nav id="menu"><a href="#histoire">Notre histoire</a><a href="#galerie">Galerie</a><a href="#programme">Programme</a><a href="#rsvp">RSVP</a><a href="#hebergement">Hébergement</a><a href="#cadeaux">Cadeaux</a></nav>
+  <button id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+</header>
+
+<main>
+<section id="hero" class="hero">
+  <div class="slides" id="slides"><div class="slide on"><div class="bd" style="background-image:url('assets/images/en-tete.jpg')"></div><img src="assets/images/en-tete.jpg" alt="Berthy et Benjamin" fetchpriority=high></div><div class="slide"><div class="bd" style="background-image:url('assets/images/en-tete-2.jpg')"></div><img src="assets/images/en-tete-2.jpg" alt="Berthy et Benjamin" loading=lazy></div><div class="slide"><div class="bd" style="background-image:url('assets/images/en-tete-3.jpg')"></div><img src="assets/images/en-tete-3.jpg" alt="Berthy et Benjamin" loading=lazy></div></div>
+  <div class="shade"></div>
+  <div class="hero-in">
+    <p class="verse">Ce que Dieu a uni, personne ne peut le séparer.</p>
+    <h1>Berthy <i>&amp;</i> Benjamin</h1>
+    <p class="date">Samedi 19 décembre 2026</p>
+  </div>
+  <div class="cd" id="cd" data-date="2026-12-19T09:30:00" aria-label="Compte à rebours"></div>
+  <div class="dots"><button class="dot on" aria-label="Photo 1"></button><button class="dot" aria-label="Photo 2"></button><button class="dot" aria-label="Photo 3"></button></div>
+</section>
+
+<section class="block welcome"><div class="wrap narrow center">
+  <span class="orn"></span>
+  <h2>Bienvenue</h2>
+  <p class="lead">Avec une joie immense et un cœur plein de gratitude envers Dieu, nous vous invitons à célébrer la grâce de notre union. Prenez le temps de découvrir notre histoire, le programme de la journée et toutes les informations utiles. Votre présence et vos prières comptent énormément pour nous.</p>
+  <div class="theme"><div class="sw"><span style="background:#0b5d3f"></span><span style="background:#ffffff"></span><span style="background:#c8691f"></span></div><p>Thème du mariage : vert émeraude, blanc et orange brûlé</p></div>
+</div></section>
+
+<section class="couple"><div class="wrap"><h2 class="center">Nos mots d&#x27;amour</h2><div class="couple-grid"><article class="person"><div class="arch"><img src="assets/images/couple-1.jpg.jpg" alt="Berthy" style="object-position:50% 25%" loading="lazy"></div><h3>Mon amour</h3><p>Je rends grâce à Dieu pour le cadeau que tu es dans ma vie. Je prie pour que, chaque jour, nous grandissions ensemble dans la foi, la confiance et la tendresse. Avec toi, je veux bâtir une maison fondée sur l&#x27;amour du Christ.</p></article><div class="monogram" aria-hidden="true"><svg viewBox="0 0 160 160" fill="currentColor"><circle cx="80" cy="80" r="76" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="80" cy="80" r="69" fill="none" stroke="currentColor" stroke-width=".6"/><text x="50" y="92" font-size="58" text-anchor="middle">B</text><text x="80" y="100" font-size="42" text-anchor="middle" class="amp">&amp;</text><text x="110" y="92" font-size="58" text-anchor="middle">B</text><text x="80" y="128" font-size="11" text-anchor="middle" letter-spacing="3" class="mdate">19.12.2026</text></svg></div><article class="person"><div class="arch"><img src="assets/images/couple-2.jpg.jpg" alt="Benjamin" style="object-position:50% 25%" loading="lazy"></div><h3>Ma joie</h3><p>Mon cœur déborde de reconnaissance envers Dieu pour ta présence à mes côtés. Je prie pour que, ensemble, nous accomplissions le dessein qu&#x27;Il a préparé pour nous. Je t&#x27;aime, je t&#x27;honore et je me réjouis de marcher avec toi toute ma vie.</p></article></div></div></section>
+
+<section id="histoire" class="block story"><div class="wrap">
+  <h2 class="center">Notre histoire</h2>
+  <div class="line"><article class="chap l"><span class="knot"></span><div class="card"><img src="assets/images/histoire-1.jpg" alt="Notre rencontre" loading="lazy"><div class="txt"><time>Octobre 2018</time><h3>Notre rencontre</h3><p>Tout a commencé la semaine du 12 octobre 2018, à Douala, pendant les préparatifs d&#x27;un mariage. Nous ne le savions pas encore, mais Dieu était déjà en train d&#x27;écrire notre histoire. Un simple regard, quelques mots échangés, et nos chemins ne se sont plus quittés.</p></div></div></article><article class="chap r"><span class="knot"></span><div class="card"><img src="assets/images/histoire-2.jpg" alt="Notre première sortie" loading="lazy"><div class="txt"><time>Mai 2019</time><h3>Notre première sortie</h3><p>En mai 2019, à Yaoundé, nous avons partagé notre première sortie dans une boulangerie. Un moment simple, plein de rires et de complicité, où nous avons compris que nous étions bien ensemble.</p></div></div></article><article class="chap l"><span class="knot"></span><div class="card"><img src="assets/images/histoire-3.jpg" alt="Nos fiançailles" loading="lazy"><div class="txt"><time>18 décembre 2021</time><h3>Nos fiançailles</h3><p>Entourés de nos familles et de nos proches, nous avons scellé notre engagement devant Dieu. Une journée de joie, de bénédictions et de prières.</p></div></div></article><article class="chap r"><span class="knot"></span><div class="card"><img src="assets/images/histoire-4.jpg" alt="La demande en mariage" loading="lazy"><div class="txt"><time>Décembre 2022</time><h3>La demande en mariage</h3><p>Malgré la distance, c&#x27;est par téléphone que la question la plus importante a été posée. Quelques mots, beaucoup d&#x27;émotion, et un « oui » qui a tout changé.</p></div></div></article></div>
+  <p class="swipe">Faites glisser pour voir la suite</p>
+</div></section>
+
+<section id="galerie" class="gal" aria-label="Galerie photos"><div class="gal-head center"><h2>Une histoire unique, des souvenirs infinis</h2></div><div class="gal-wrap"><button class="gal-btn prev" aria-label="Photo précédente">&#8249;</button><div class="gal-track" id="gal-track"><figure><img src="assets/images/galerie-1.jpg.jpg" alt="Berthy et Benjamin, photo 1" loading="lazy" draggable="false"></figure><figure><img src="assets/images/galerie-2.jpg.jpg" alt="Berthy et Benjamin, photo 2" loading="lazy" draggable="false"></figure><figure><img src="assets/images/galerie-3.jpg.jpg" alt="Berthy et Benjamin, photo 3" loading="lazy" draggable="false"></figure></div><button class="gal-btn next" aria-label="Photo suivante">&#8250;</button></div></section>
+
+<section id="programme" class="block alt"><div class="wrap">
+  <h2 class="center">Programme de la journée</h2>
+  <div class="events"><article class="event"><div class="ev-img"><img src="assets/images/programme-1.jpg" alt="Mariage civil" loading="lazy"></div><div class="ev-body"><p class="when">Samedi 19 décembre 2026 · 09h30</p><h3>Mariage civil</h3><p class="where">Lobé-Village, bord de plage, Kribi</p><p>Nous nous engagerons officiellement devant la loi, face à l&#x27;océan. Merci d&#x27;arriver avec un peu d&#x27;avance.</p><div class="actions"><a class="btn ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Lobé-Village,+bord+de+plage,+Kribi" target="_blank" rel="noopener">Itinéraire</a><button class="btn ghost" data-ics data-title="Mariage civil - Berthy &amp; Benjamin" data-start="2026-12-19T09:30" data-min="90" data-loc="Lobé-Village, bord de plage, Kribi">Ajouter au calendrier</button></div></div></article><article class="event"><div class="ev-img"><img src="assets/images/programme-2.jpg" alt="Bénédiction nuptiale" loading="lazy"></div><div class="ev-body"><p class="when">Samedi 19 décembre 2026 · 14h00</p><h3>Bénédiction nuptiale</h3><p class="where">Lobé-Village, bord de plage, Kribi</p><p>Nous placerons notre union sous la bénédiction de Dieu, en présence de nos familles et de nos amis.</p><div class="actions"><a class="btn ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Lobé-Village,+bord+de+plage,+Kribi" target="_blank" rel="noopener">Itinéraire</a><button class="btn ghost" data-ics data-title="Bénédiction nuptiale - Berthy &amp; Benjamin" data-start="2026-12-19T14:00" data-min="120" data-loc="Lobé-Village, bord de plage, Kribi">Ajouter au calendrier</button></div></div></article><article class="event"><div class="ev-img"><img src="assets/images/programme-3.jpg" alt="Soirée de réception" loading="lazy"></div><div class="ev-body"><p class="when">Samedi 19 décembre 2026 · 19h30</p><h3>Soirée de réception</h3><p class="where">Hôtel Le Paradis, Kribi</p><p>Place à la fête ! Un repas, de la musique et de la danse pour clôturer cette journée de grâce. Nous serons heureux de rire, de danser et de remercier Dieu avec vous.</p><div class="actions"><a class="btn ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Hôtel+Le+Paradis,+Kribi" target="_blank" rel="noopener">Itinéraire</a><button class="btn ghost" data-ics data-title="Soirée de réception - Berthy &amp; Benjamin" data-start="2026-12-19T19:30" data-min="240" data-loc="Hôtel Le Paradis, Kribi">Ajouter au calendrier</button></div></div></article></div>
+  <p class="swipe">Faites glisser pour voir la suite</p>
+</div></section>
+
+<section id="rsvp" class="rsvp" style="--bg:url('assets/images/en-tete.jpg')">
+  <div class="wrap narrow center">
+    <h2>Confirmez votre présence</h2>
+    <form id="rsvp-form" data-form="https://docs.google.com/forms/d/e/1FAIpQLSdou50nLgf7PSrmiBFqvCDjD0bEXYNaKQDywpgxavl5IzedyQ/formResponse" data-entries="{&quot;prenom&quot;: &quot;entry.1032041143&quot;, &quot;nom&quot;: &quot;entry.1923811700&quot;, &quot;nb&quot;: &quot;entry.455353956&quot;, &quot;reponse&quot;: &quot;entry.1018203238&quot;, &quot;message&quot;: &quot;entry.336397461&quot;}" data-close="2026-12-06T00:00:00+01:00" data-closed="Les confirmations de présence sont closes depuis le 6 décembre 2026. Pour toute question, contactez directement les mariés.">
+      <div class="row"><input id="f-prenom" placeholder="Prénom" required autocomplete="given-name">
+      <input id="f-nom" placeholder="Nom" required autocomplete="family-name"></div>
+      <div class="row"><select id="f-nb" required><option value="" disabled selected>Personnes</option>
+      <option>1</option><option>2</option></select>
+      <select id="f-part" required><option value="" disabled selected>Votre réponse</option><option>Je serai présent(e) à tous les moments</option><option>Seulement : Mariage civil</option><option>Seulement : Bénédiction nuptiale</option><option>Seulement : Soirée de réception</option><option>Je ne pourrai malheureusement pas venir</option></select></div>
+      <textarea id="f-msg" rows="4" placeholder="Un petit mot pour nous"></textarea>
+      <div class="actions c"><button type="submit" class="btn solid">Confirmer ma présence</button></div>
+      <p id="f-note" aria-live="polite"></p>
+    </form>
+    <p class="deadline">Merci de confirmer votre présence au plus tard le 5 décembre 2026. À partir du 6 décembre, il ne sera plus possible de répondre.</p>
+  </div>
+</section>
+
+<section id="hebergement" class="block alt"><div class="wrap center"><h2>Hébergement</h2><div class="hotel withimg"><div class="gallery"><img src="assets/images/hebergement-1.jpg" alt="Hôtel Le Paradis" loading="lazy"></div><div class="hbody"><h3>Hôtel Le Paradis</h3><p>Réservation obligatoire. Contactez l&#x27;organisatrice du mariage pour réserver votre chambre.</p><a class="btn solid" href="tel:+237695336363">Appeler +237 695336363</a></div></div></div></section>
+
+<section id="cadeaux" class="block"><div class="wrap gift-wide center">
+  <div class="gtop"><h2>Cadeaux</h2><p class="lead">Votre présence est notre plus beau cadeau. Si vous souhaitez toutefois nous témoigner votre générosité, vous pouvez le faire le jour du mariage, en présentiel, ou à distance par Orange Money ou MTN Mobile Money, sans aucune obligation. Merci du fond du cœur !</p></div>
+  <div class="gift-photo wide"><img src="assets/images/cadeaux-1.jpg" alt="Cadeaux" loading="lazy"></div>
+  <div class="gbottom">
+    <div class="money"><div class="holder"><h3>MEMBILE MEMBILE Benjamin</h3><ul><li><span class="num"><span class="op orange">Orange Money</span><b>+237 690297498</b></span><button class="copy" data-copy="+237 690297498">Copier</button></li><li><span class="num"><span class="op mtn">MTN MoMo</span><b>+237 670867846</b></span><button class="copy" data-copy="+237 670867846">Copier</button></li></ul></div><div class="holder"><h3>Ngando Kooh Berthy Aristide</h3><ul><li><span class="num"><span class="op orange">Orange Money</span><b>+237 690859299</b></span><button class="copy" data-copy="+237 690859299">Copier</button></li><li><span class="num"><span class="op mtn">MTN MoMo</span><b>+237 682685883</b></span><button class="copy" data-copy="+237 682685883">Copier</button></li></ul></div></div>
+  <p class="swipe">Faites glisser pour voir la suite</p>
+    <p class="small">Vérifiez le nom du bénéficiaire avant de valider votre transfert.</p>
+    <div class="actions c"></div>
+  </div>
+</div></section>
+</main>
+
+<footer class="foot">
+  <p class="mono big">Berthy <i>&amp;</i> Benjamin</p>
+  <p>Merci de célébrer avec nous la grâce de notre union en Christ. Que Dieu vous bénisse !</p>
+  <p class="small">Samedi 19 décembre 2026 · &copy; 2026</p>
+</footer>
+<a href="#hero" id="top" aria-label="Haut de page">↑</a>
+<script src="script.js"></script>
+</body>
+</html>
